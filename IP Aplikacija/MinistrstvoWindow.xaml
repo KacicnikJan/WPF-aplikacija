@@ -1,0 +1,29 @@
+﻿<Window x:Class="IP_Aplikacija.MinistrstvoWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IP_Aplikacija"
+        mc:Ignorable="d"
+        Title="MinistrstvoWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Lime1" Content="Ime prve stranke:" HorizontalAlignment="Left" Margin="39,24,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Lime2" Content="Ime druge stranke:" HorizontalAlignment="Left" Margin="332,24,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="LPriimek1" Content="Priimek prve stranke:" HorizontalAlignment="Left" Margin="39,73,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lPriimek2" Content="Priimek druge stranke:" HorizontalAlignment="Left" Margin="332,73,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lDatum1" Content="Rojstni datum prve stranke:" HorizontalAlignment="Left" Margin="39,119,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Ldatum2" Content="Rojstni datum druge stranke:" HorizontalAlignment="Left" Margin="332,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.141,0.487"/>
+        <Label x:Name="lZaposlena1" Content="Ali je prva stranka zaposlena?" HorizontalAlignment="Left" Margin="39,163,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lZaposlena2" Content="Ali je druga stranka zaposlena?" HorizontalAlignment="Left" Margin="332,163,0,0" VerticalAlignment="Top"/>
+        <Button Content="Odobri prošnjo in izdaj pooblastilo" HorizontalAlignment="Left" Margin="24,378,0,0" VerticalAlignment="Top" Width="200" Click="Button_Click"/>
+
+        <ComboBox x:Name="cbKraj" HorizontalAlignment="Left" Margin="24,225,0,0" VerticalAlignment="Top" Width="166">
+            <ComboBoxItem IsSelected="True" >Obcina</ComboBoxItem>
+            <ComboBoxItem>Cerkev</ComboBoxItem>
+            <ComboBoxItem>Glavni trg</ComboBoxItem>
+        </ComboBox>
+        <Label x:Name="lZavrnitev" Content="" HorizontalAlignment="Left" Margin="24,252,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Button Content="Zavrni prosnjo" HorizontalAlignment="Left" Margin="665,378,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="IP_Aplikacija.Predlog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IP_Aplikacija"
+        mc:Ignorable="d"
+        Title="Predlog" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="lPooblastilo" Content="Pooblastilo:" HorizontalAlignment="Left" Margin="29,35,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lProstor" Content="Predlog o prostoru:" HorizontalAlignment="Left" Margin="29,177,0,0" VerticalAlignment="Top"/>
+        <Button Content="Se ne strinjam z prostorom" HorizontalAlignment="Left" Margin="29,384,0,0" VerticalAlignment="Top" Width="165" Click="Button_Click"/>
+        <Button Content="Strinjam se z prostorom in želim nadaljevati" HorizontalAlignment="Left" Margin="320,384,0,0" VerticalAlignment="Top" Width="250" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

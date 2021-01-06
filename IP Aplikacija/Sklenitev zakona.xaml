@@ -1,0 +1,15 @@
+﻿<Window x:Class="IP_Aplikacija.Sklenitev_zakona"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IP_Aplikacija"
+        mc:Ignorable="d"
+        Title="Sklenitev_zakona" Height="450" Width="800">
+    <Grid>
+        <Button Content="Potrdi zakon" HorizontalAlignment="Left" Margin="26,353,0,0" VerticalAlignment="Top" Width="158" Click="Button_Click"/>
+        <Label x:Name="lProstor" Content="Potrjeni prostor:" HorizontalAlignment="Left" Margin="26,33,0,0" VerticalAlignment="Top" />
+        <Label x:Name="lStranki" Content="Stranki:" HorizontalAlignment="Left" Margin="26,124,0,0" VerticalAlignment="Top" />
+
+    </Grid>
+</Window>
